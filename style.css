@@ -3,6 +3,7 @@
 	background: #E6E6E6;
 	padding: 30px;
 	text-align: center;
+	margin: 0;
 	}
 	
 .header-border {
@@ -12,5 +13,5 @@
 	
 body {
 	background: #EDEDED;
-	margin: 0;
+	
 }

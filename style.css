@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 
 .header {
-	background: #E6E6E6;
+	background: #FFB319;
 	padding: 30px;
 	text-align: center;
 	margin: 0;
+	position: fixed;
 	}
 	
 .header-border {
@@ -13,5 +16,11 @@
 	
 body {
 	background: #EDEDED;
+	font-family: 'PT Sans', sans-serif;
+	margin: auto;
+
+}
+
+.navigation {
 	
 }

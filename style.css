@@ -5,6 +5,7 @@
 	background: #FFB319;
 	top: 0;
 	width: 100%;
+	padding: 15px 0px 0px 10px;
 	margin: 0;
 	position: fixed;
 	}
@@ -22,5 +23,11 @@ body {
 }
 
 .navigation {
+	
+}
+
+.greeting {
+	color: blue;
+	font-size: 64px;
 	
 }

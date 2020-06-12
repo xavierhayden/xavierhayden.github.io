@@ -10,10 +10,7 @@
 	position: fixed;
 	}
 	
-.header-border {
-	background: blue;
-	
-	}
+
 	
 body {
 	background: #EDEDED;
@@ -29,5 +26,14 @@ body {
 .greeting {
 	color: blue;
 	font-size: 64px;
+	padding: 0px;
 	
 }
+
+a {
+  color: blue;
+}
+
+/* Internal links, beginning with "#" */
+a[href^="#"] {
+  background-color: gold;

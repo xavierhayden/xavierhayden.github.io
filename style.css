@@ -23,8 +23,10 @@ border-radius: 5px;
 margin: auto;
 }
 
-.navigation {
-	
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
 }
 
 .greeting {

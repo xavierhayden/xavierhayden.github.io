@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.header {
+	background: #FFC34D;
+	top: 0;
+	width: 100%;
+
+	margin: 0;
+	position: fixed;
+	}
+	
+
+	
+body {
+	background: gray;
+	font-family: 'PT Sans', sans-serif;
+	margin: auto;
+}
+
+div{
+border-radius: 5px;
+margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.greeting {
+	color: blue;
+	font-size: 64px;
+	padding: 32px
+	
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+	color: blue;
+}
+/* Internal links, beginning with "#" */
+a[href^="#"] {
+  background-color: gold;

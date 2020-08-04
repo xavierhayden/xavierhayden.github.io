@@ -1,48 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-
-.header {
-	background: #FFC34D;
-	top: 0;
-	width: 100%;
-
-	margin: 0;
-	position: fixed;
-	}
-	
-
 	
 body {
-	background: gray;
+	background: #f4f4f4;
 	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
 	margin: auto;
-}
-
-div{
-border-radius: 5px;
-margin: auto;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-
-.greeting {
-	color: blue;
-	font-size: 64px;
-	padding: 32px
 	
 }
+/*Global*/
 
-a {
-  color: blue;
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
 }
 
-a:hover {
-	color: blue;
+header{
+	background:#ce652d;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#338481 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+header a:hover {
+	color: #969191;
 }
 /* Internal links, beginning with "#" */
 a[href^="#"] {
   background-color: gold;
+}
+  header ul {
+	margin: 0;
+	padding: 0;
+  }
+  
+  header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+  }
+  
+  footer{
+	
+  }
